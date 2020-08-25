@@ -20,7 +20,10 @@ export default function Home() {
       </Head>
 
       <Main pad="large">
-        <Heading color="neutral-2">Sister Helen - Coming soon!</Heading>
+        <Heading color="neutral-2">Sister Helen</Heading>
+        <Heading level="3" margin="none" color="neutral-2">
+          Coming soon
+        </Heading>
         <WorldMap
           color="neutral-1"
           fill="horizontal"
@@ -38,6 +41,7 @@ export default function Home() {
             size="xlarge"
             color="neutral-2"
             margin="medium"
+            hourLimit={12}
           />
         </Text>
         <Image fill="horizontal" fit="contain" src="/frites.jpg" />
@@ -45,7 +49,11 @@ export default function Home() {
 
       <Footer background="brand" pad="medium" fill="horizontal">
         <Text>&#169; Sister Helen {new Date().getFullYear()}</Text>
-        <Anchor label="Coming soon" />
+        <Anchor
+          label="Contact"
+          href="mailto:hello@sisterhelenphx.com"
+          color="accent-4"
+        />
       </Footer>
     </Grommet>
   );
