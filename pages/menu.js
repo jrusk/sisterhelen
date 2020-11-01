@@ -21,11 +21,7 @@ export default function Menu() {
             </Text>
           </Box>
           <Box pad="small">
-            <Anchor
-              href="menu.pdf"
-              label="Menu PDF version"
-              color="neutral-2"
-            />
+            <Anchor href="menu.pdf" label="PDF version" color="neutral-2" />
           </Box>
         </Box>
         <Image fill="horizontal" fit="contain" src="/menu.png" />

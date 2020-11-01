@@ -18,9 +18,9 @@ function MyApp({ Component, pageProps }) {
 
       <Footer background="brand" pad="medium" fill="horizontal">
         <Text>&#169; Sister Helen {new Date().getFullYear()}</Text>
-        <Box>1820 W Northern Ave, Suite 140 Phoenix, AZ 85021</Box>
         <Box>
-          (602) 870-0313
+          <Text>1820 W Northern Ave, Suite 140 Phoenix, AZ 85021</Text>
+          <Text>(602) 870-0313</Text>
           <Anchor
             label="hello@sisterhelenphx.com"
             href="mailto:hello@sisterhelenphx.com"
