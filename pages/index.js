@@ -60,13 +60,13 @@ export default function Home() {
                   <TableCell scope="row">
                     <strong>Thursday</strong>
                   </TableCell>
-                  <TableCell>4:00 PM–9:00 PM</TableCell>
+                  <TableCell>4:00 PM–8:00 PM</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell scope="row">
                     <strong>Friday</strong>
                   </TableCell>
-                  <TableCell>4:00 PM–9:00 PM</TableCell>
+                  <TableCell>4:00 PM–8:00 PM</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell scope="row">
