@@ -34,30 +34,6 @@ export default function Home() {
               <TableBody>
                 <TableRow>
                   <TableCell scope="row">
-                    <strong>Sunday</strong>
-                  </TableCell>
-                  <TableCell>10:00 AM–8:00 PM</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell scope="row">
-                    <strong>Monday</strong>
-                  </TableCell>
-                  <TableCell>Closed</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell scope="row">
-                    <strong>Tuesday</strong>
-                  </TableCell>
-                  <TableCell>Closed</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell scope="row">
-                    <strong>Wednesday</strong>
-                  </TableCell>
-                  <TableCell>Closed</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell scope="row">
                     <strong>Thursday</strong>
                   </TableCell>
                   <TableCell>4:00 PM–8:00 PM</TableCell>
@@ -71,6 +47,12 @@ export default function Home() {
                 <TableRow>
                   <TableCell scope="row">
                     <strong>Saturday</strong>
+                  </TableCell>
+                  <TableCell>10:00 AM–8:00 PM</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell scope="row">
+                    <strong>Sunday</strong>
                   </TableCell>
                   <TableCell>10:00 AM–8:00 PM</TableCell>
                 </TableRow>
