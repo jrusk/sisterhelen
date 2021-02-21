@@ -36,7 +36,7 @@ export default function Home() {
                   <TableCell scope="row">
                     <strong>Sunday</strong>
                   </TableCell>
-                  <TableCell>11:00 AM–8:00 PM</TableCell>
+                  <TableCell>10:00 AM–8:00 PM</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell scope="row">
@@ -72,7 +72,7 @@ export default function Home() {
                   <TableCell scope="row">
                     <strong>Saturday</strong>
                   </TableCell>
-                  <TableCell>11:00 AM–8:00 PM</TableCell>
+                  <TableCell>10:00 AM–8:00 PM</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
